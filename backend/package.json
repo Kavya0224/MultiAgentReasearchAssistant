@@ -1,0 +1,35 @@
+{
+  "name": "research-assistant-backend",
+  "version": "1.0.0",
+  "description": "Multi-agent research backend with LangGraph JS",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "ingest": "node src/rag/ingest.js"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.15",
+    "@langchain/core": "^0.3.26",
+    "@langchain/groq": "^0.1.2",
+    "@langchain/langgraph": "^0.2.36",
+    "@langchain/textsplitters": "^0.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "faiss-node": "^0.5.1",
+    "helmet": "^8.0.0",
+    "langchain": "^0.3.11",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1",
+    "uuid": "^11.0.3",
+    "winston": "^3.17.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

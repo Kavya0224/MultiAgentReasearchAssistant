@@ -1,0 +1,2 @@
+FAISS vector index files will be saved here after first run.
+This directory is gitignored — the index is generated at runtime.
