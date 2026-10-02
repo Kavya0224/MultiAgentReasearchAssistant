@@ -35,7 +35,7 @@ User Query
 |---|---|---|
 | **Planner** | Decomposes query into sub-queries & keywords | Groq llama-3.3-70b |
 | **Retriever** | Semantic FAISS search across all sub-queries | FAISS + HF Embeddings |
-| **Summarizer** | Synthesizes chunks into structured answer | Groq Mixtral 8x7b |
+| **Summarizer** | Synthesizes chunks into structured answer | Groq llama-3.3-70b |
 | **Validator** | Fact-checks against source chunks, triggers re-retrieval if hallucinated | Groq llama-3.3-70b |
 
 ---
